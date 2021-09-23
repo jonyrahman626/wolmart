@@ -1,0 +1,24 @@
+.crumb{
+    padding: 60px 0;
+    border-top:1px solid #f1f1f1;
+    .bread_text{
+        nav{
+            ol{
+                li{
+                    a{
+                        @include fntfml(#666 !important, 20px !important, 700 !important, $poppins !important);
+                        
+                        text-transform: capitalize;
+                        margin:0 5px;
+                    }
+                }
+            
+                li.active{
+                    @include fntfml(#336699 !important, 20px !important, 700 !important, $poppins !important);
+                    text-transform: capitalize;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
